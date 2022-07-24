@@ -5,51 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio Eric</title>
-    <style>
-
-#nome {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-}
-
-#sobre {
-    font-family: sans-serif;
-    text-decoration: underline;
-}
-
-body {
-    background-color: #7CA8B6;
-}
-
-.lista {
-font-size: 15px;
-}
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h2 id="nome"><a href="#foto">ERIC MAIKE DE AGUIAR LOPES</a></h2>
+    <h3><em>Índice</em></h3>
+    <ol>
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#soft">Soft Skills</a></li>
+        <li><a href="#hard">Hard Skills</a></li>
+    </ol>
 
+    <br><br>
+
+<div>  
+<h2 id="nome"><a href="#foto">ERIC MAIKE DE AGUIAR LOPES</a></h2>
+    <div class="image-container">
 <img id="foto" src="foto.jpg" alt="Foto de Eric Maike" width="200px"
 <br>
 
-
-
-<h3><em>Índice</em></h3>
-<ol>
-    <li><a href="#sobre">Sobre mim</a></li>
-    <li><a href="#soft">Soft Skills</a></li>
-    <li><a href="#hard">Hard Skills</a></li>
-</ol>
-
 <br><br>
 
-<h3 id="sobre"><em>Sobre mim</em></h3>
-<p>Olá, seja bem-vindo.
+<p class="sobre">
+<h3><em>Sobre mim</em></h3>
+    <br>
+    Olá, seja bem-vindo.
     <br>
     Me chamo Eric, sou <strong>brasileiro</strong>, tenho 18 anos e moro em <strong>Cacoal-RO</strong>. Estou estudando Desenvolvimento Web na trybe, e desejo ir muito afundo com a programação. Já trabalhei como estagiário e auxiliar administrativo.
 </p>
-
+    </div>
+</div>
 <br><br>
 
 <h3 id="soft"><em>Soft Skills</em></h3>
@@ -63,12 +47,13 @@ font-size: 15px;
 
 <br><br>
 
-<h3 id="hard">Hard Skills</h3>
-<ul class="lista">
+<h3 id="title-hard">Hard Skills</h3>
+<ul id="hard-list" class="lista">
     <li>Microsoft Office</li>
     <li>Formatação de computadores</li>
     <li>Unix e Bash</li>
     <li>Introdução à HTML e CSS</li>
+    <li>Introdução a JavaScript</li>
 </ul>
 
 <br>

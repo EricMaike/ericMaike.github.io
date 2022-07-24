@@ -1,0 +1,45 @@
+#nome {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.sobre {
+    position: absolute;
+    right: 5cm;
+
+}
+
+div h3 {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #7CA8B6;
+}
+
+.lista {
+font-size: 15px;
+}
+
+div {
+    border: 2px solid black;
+}
+
+#foto {
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: blueviolet;
+    
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+#hard-list li:nth-child(odd) {
+    background-color: fuchsia;
+}
