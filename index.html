@@ -1,67 +1,195 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Eric</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h3><em>Índice</em></h3>
-    <ol>
-        <li><a href="#sobre">Sobre mim</a></li>
-        <li><a href="#soft">Soft Skills</a></li>
-        <li><a href="#hard">Hard Skills</a></li>
-    </ol>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio Eric</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+            crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/6835c764ef.js"
+            crossorigin="anonymous"></script>
+    </head>
+    <body id="body">
+        <div id="apresentacao">
+            <p>Olá, eu sou</p>
+            <p id="name">Eric Maike :)</p>
+            <p id="location" class="contents"><i
+                    class="fa-solid fa-location-dot"></i> Cacoal,
+                Rondônia, Brasil</p>
+        </div>
 
-    <br><br>
+        <img src="./foto.jpg" id="foto" />
 
-<div>  
-<h2 id="nome"><a href="#foto">ERIC MAIKE DE AGUIAR LOPES</a></h2>
-    <div class="image-container">
-<img id="foto" src="foto.jpg" alt="Foto de Eric Maike" width="200px"
-<br>
+        <div id="div-sobre">
+            <h3 id="sobre">Sobre mim</h3>
+            <p class="contents">Tenho 19 anos, sou Desenvolvedor Web Full Stack
+                formado pela
+                Trybe, com experiência em HTML, CSS, JavaScript, TypeScript,
+                React.js, Docker, banco de dados relacional e não relacional,
+                Node.js, Express, APIs REST...
+                <br />
+                Sou uma pessoa apaixonada por tecnologia e solução de problemas.
+                Conheci a Trybe assim que terminei o ensino médio, e então
+                decide mergulhar de cabeça, hoje tenho orgulho de dizer que sou
+                Desenvolvedor Full Stack.
+                Estou em busca do primeiro emprego na área de desenvolvimento,
+                tanto para aperfeiçoar minhas habilidades, quanto para conhecer
+                novas tecnologias. </p>
+        </div>
 
-<br><br>
+        <div id="div-formacao">
+            <div id="icon-school">
+                <i class="fa-solid fa-school"></i>
+            </div>
 
-<p class="sobre">
-<h3><em>Sobre mim</em></h3>
-    <br>
-    Olá, seja bem-vindo.
-    <br>
-    Me chamo Eric, sou <strong>brasileiro</strong>, tenho 18 anos e moro em <strong>Cacoal-RO</strong>. Estou estudando Desenvolvimento Web na trybe, e desejo ir muito afundo com a programação. Já trabalhei como estagiário e auxiliar administrativo.
-</p>
-    </div>
-</div>
-<br><br>
+            <div id="formacao">
+                <h3>Formação acadêmica</h3>
 
-<h3 id="soft"><em>Soft Skills</em></h3>
-<ul class="lista">
-    <li>Atencioso</li>
-    <li>Dedicado</li>
-    <li>Persistente</li>
-    <li>Compreensivo</li>
-    <li>Alegre</li>
-</ul>
+                <div class="contents">
+                    <li>Fundação Bradesco</li>
+                    <p>Ensino médio - 2021</p>
+                </div>
 
-<br><br>
+                <div class="contents">
+                    <li>Trybe</li>
+                    <p>Desenvolvimento Web Full Stack - 2023</p>
+                </div>
+            </div>
+        </div>
 
-<h3 id="title-hard">Hard Skills</h3>
-<ul id="hard-list" class="lista">
-    <li>Microsoft Office</li>
-    <li>Formatação de computadores</li>
-    <li>Unix e Bash</li>
-    <li>Introdução à HTML e CSS</li>
-    <li>Introdução a JavaScript</li>
-</ul>
+        <div id="div-certificacao">
+            <div id="certificacao">
+                <h3>Certificações</h3>
+                <ul class="contents">
+                    <li><a
+                            href="https://www.credential.net/c6eb06f7-1126-4290-85ca-131949ba5399"
+                            target="_blank">Fundamentos
+                            do Desenvolvimento Web</a> <i class="fa-solid
+                        fa-arrow-up-right-from-square"></i></li>
+                    <li><a
+                            href="https://www.credential.net/87a90da3-566b-4e64-ac4d-73774624ba56#gs.09v74m"
+                            target="_blank">Front-End</a> <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></li>
+                    <li><a
+                            href="https://www.credential.net/390950f3-2553-44c6-954c-ac1a8df138ec"
+                            target="_blank">Back-End</a> <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></li>
+                </ul>
+            </div>
 
-<br>
+            <div id="icon-certificacao">
+                <i class="fa-solid fa-file"></i>
+            </div>
+        </div>
 
-<a href="https://www.blogs.unicamp.br/" target="_blank">Passatempo</a>
+        <div id="div-experiencias">
+            <div id="experiencias">
+                <h3>Experiências</h3>
+                <div class=" contents">
+                    <li>Ayres Engenharia</li>
+                    <p>Assistente administrativo</p>
+                    <p>Fevereiro de 2022 - Julho de 2022 (6 meses)</p>
+                    <p>Desenvolvimento de laudos previdenciários e trabalhista,
+                        cadastro de empresas em sistema e produção de relatórios
+                        detalhados.</p>
+                </div>
 
-</body>
+                <div class="contents">
+                    <li>IDARON</li>
+                    <p>Estagiário</p>
+                    <p>Maio de 2020 - Dezembro de 2021 (1 ano e 8 meses)</p>
+                    <p>Realização de atividades administrativas (produção de
+                        relatórios, cadastro e arquivamento de documentos, e
+                        organização em geral), em
+                        certas circuntâncias ia para atividades de campo com
+                        meus supervisores.</p>
+                </div>
+            </div>
+
+            <div id="icon-experiencias">
+                <i class="fa-solid fa-briefcase"></i>
+            </div>
+        </div>
+
+        <div id="div-estudar">
+            <div id="estudar">
+                <h3>O que gosto de estudar</h3>
+                <ul class="contents">
+                    <li><a href="https://www.youtube.com/@TheCodingTrain"
+                            target="_blank">The
+                            coding Train (Youtube)</a> <i
+                            class="fa-solid fa-arrow-up-right-from-square"> </i></li>
+                    <li><a href="https://www.youtube.com/@codigofontetv"
+                            target="_blank">Código
+                            Fonte TV</a> <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></li>
+                </ul>
+            </div>
+
+            <div id="icon-estudar">
+                <i class="fa-brands fa-readme"></i>
+            </div>
+        </div>
+
+        <div id="div-fazer">
+            <div id="fazer">
+                <h3>O que gosto de fazer</h3>
+                <ul class="contents">
+                    <li>Viajar</li>
+                    <li>Tomar tereré</li>
+                    <li>Assistir séries e filmes</li>
+                    <li>Jogar jogos de modo história</li>
+                </ul>
+            </div>
+
+            <div id="icon-fazer">
+                <i class="fa-solid fa-gamepad"></i>
+            </div>
+        </div>
+
+        <div id="div-contatos">
+            <h3>Contatos</h3>
+            <div id="itens-contatos">
+                <div class="itens-contatos" id="github">
+                    <i class="fa-brands fa-github icons"></i>
+                    <p><a href="https://github.com/EricMaike" target="_blank">GitHub</a>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    <p>EricMaike</p>
+                </div>
+
+                <div class="itens-contatos" id="email">
+                    <i class="fa-solid fa-envelope icons"></i>
+                    <p>Email</p>
+                    <p>ericmaikelopes@gmail.com</p>
+                </div>
+
+                <div class="itens-contatos" id="linkedin">
+                    <i class="fa-brands fa-linkedin icons"></i>
+                    <p><a href="https://www.linkedin.com/in/ericmaike/"
+                            target="_blank">Linkedin</a> <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    <p>eric maike</p>
+                </div>
+
+                <div class="itens-contatos" id="insta">
+                    <i class="fa-brands fa-square-instagram icons"></i>
+                    <p><a href="https://www.instagram.com/eric._maike/"
+                            target="_blank">Instagram</a> <i
+                            class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    <p>eric._maike</p>
+                </div>
+
+                <div class="itens-contatos" id="whats">
+                    <i class="fa-brands fa-square-whatsapp icons"></i>
+                    <p>Whatsapp</p>
+                    <p>(69)9.9309-9779</p>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
-
-
-
